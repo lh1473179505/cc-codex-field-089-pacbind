@@ -1,0 +1,6 @@
+{
+  "clock_skew": 300,
+  "allowed_to_delegate": [
+    "http/app.shop.example"
+  ]
+}

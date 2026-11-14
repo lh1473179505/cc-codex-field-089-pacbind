@@ -1,0 +1,41 @@
+{
+  "now": 1700000000,
+  "ticket": {
+    "cname": "alice",
+    "crealm": "SHOP.EXAMPLE",
+    "sname": "http/app.shop.example",
+    "endtime": 1700003600,
+    "flags": {
+      "constrained_delegation": true
+    },
+    "authtime": 1699999940
+  },
+  "authenticator": {
+    "cname": "alice",
+    "crealm": "SHOP.EXAMPLE",
+    "ctime": 1699999995,
+    "cusec": 1
+  },
+  "pac": {
+    "logon_time": 1699999940,
+    "groups": [
+      "Domain Users",
+      "Shop-App"
+    ],
+    "extra_sids": [],
+    "upn": "alice@SHOP.EXAMPLE",
+    "delegation": {
+      "service": "cifs/files.shop.example",
+      "evidence": {
+        "cname": "admin"
+      }
+    },
+    "checksums": {
+      "server": "570f2accdcf5a18cff830584ef23ac4c60e336741ba81a85a7a0b118c3c77501",
+      "kdc": "bf0142e424ded109a4d426da06aaffa7afc2df4e6372773d31ce78197c21942e"
+    }
+  },
+  "replay": {
+    "used": []
+  }
+}

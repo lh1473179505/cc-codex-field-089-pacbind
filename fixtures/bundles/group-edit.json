@@ -1,0 +1,34 @@
+{
+  "now": 1700000000,
+  "ticket": {
+    "cname": "alice",
+    "crealm": "SHOP.EXAMPLE",
+    "sname": "http/app.shop.example",
+    "endtime": 1700003600,
+    "flags": {},
+    "authtime": 1699999940
+  },
+  "authenticator": {
+    "cname": "alice",
+    "crealm": "SHOP.EXAMPLE",
+    "ctime": 1699999995,
+    "cusec": 1
+  },
+  "pac": {
+    "logon_time": 1699999940,
+    "groups": [
+      "Domain Users",
+      "Shop-App",
+      "Domain Admins"
+    ],
+    "extra_sids": [],
+    "upn": "alice@SHOP.EXAMPLE",
+    "checksums": {
+      "server": "4346fe054a6c3b16c1b094a04baf59538c06cb806cc23bc0a79f1517d88cf579",
+      "kdc": "bf6b5fa0083bb52c0f3518c6bfce1f3fd9912f0feba673778a3af91bde7c22a9"
+    }
+  },
+  "replay": {
+    "used": []
+  }
+}
